@@ -1,2 +1,12 @@
 Mapreduce usually writes result of each stage in disk making it slower and costlier
+Steps for mapreduce 
+1. eg-  "Hello World" , "Good World" , "Happy World"
+   -> First Step is Mapping - Key value pair - ("Hello" , 1) , ("World" , 1), ("Good" , 1) , ("World" , 1)., ("Happy" , 1) , ("World" , 1)
+   -> Second Step would be shuffle sort - ("Hello" , 1) , ("World" , 1 , 1 , 1) , ("Good", 1), ("Happy" , 1)
+   -> Third step would be reduce - ("Hello" , 1) , ("World" , 3 ), ("Good", 1), ("Happy" , 1)
+
+
+To solve the slowness issue , Spark would be the best option since it stores results of each stages in memory.
+
+
 

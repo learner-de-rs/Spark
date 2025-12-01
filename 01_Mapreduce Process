@@ -1,0 +1,2 @@
+Mapreduce usually writes result of each stage in disk making it slower and costlier
+
